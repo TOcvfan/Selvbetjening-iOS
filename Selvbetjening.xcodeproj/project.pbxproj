@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CC3B5FDFFDD13E96D94185E /* Pods_Selvbetjening.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4100B8D0717C7659564933C8 /* Pods_Selvbetjening.framework */; };
+		9F2750181DF6B90500F9F662 /* HTMLReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2750171DF6B90500F9F662 /* HTMLReader.framework */; };
+		9F27501A1DF6B90B00F9F662 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2750191DF6B90B00F9F662 /* Alamofire.framework */; };
+		9F27501C1DF6B91100F9F662 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F27501B1DF6B91100F9F662 /* Kanna.framework */; };
+		9F27501E1DF6B91A00F9F662 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F27501D1DF6B91A00F9F662 /* SwiftyJSON.framework */; };
+		9F2750201DF6B99500F9F662 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F27501F1DF6B99500F9F662 /* Chart.swift */; };
+		9F2750221DF6B9AC00F9F662 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2750211DF6B9AC00F9F662 /* DataController.swift */; };
 		9FFCC19E1DF6B65F009BBD2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCC19D1DF6B65F009BBD2E /* AppDelegate.swift */; };
 		9FFCC1A01DF6B660009BBD2E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCC19F1DF6B65F009BBD2E /* MasterViewController.swift */; };
 		9FFCC1A21DF6B660009BBD2E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCC1A11DF6B660009BBD2E /* DetailViewController.swift */; };
@@ -16,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4100B8D0717C7659564933C8 /* Pods_Selvbetjening.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Selvbetjening.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7731DAB839AD8AE69DFA6199 /* Pods-Selvbetjening.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selvbetjening.release.xcconfig"; path = "Pods/Target Support Files/Pods-Selvbetjening/Pods-Selvbetjening.release.xcconfig"; sourceTree = "<group>"; };
+		9F2750171DF6B90500F9F662 /* HTMLReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTMLReader.framework; path = "../../../Library/Developer/Xcode/DerivedData/Selvbetjening-attzzbloqohansedtynavtfciskb/Build/Products/Debug-iphonesimulator/HTMLReader/HTMLReader.framework"; sourceTree = "<group>"; };
+		9F2750191DF6B90B00F9F662 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Selvbetjening-attzzbloqohansedtynavtfciskb/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		9F27501B1DF6B91100F9F662 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kanna.framework; path = "../../../Library/Developer/Xcode/DerivedData/Selvbetjening-attzzbloqohansedtynavtfciskb/Build/Products/Debug-iphonesimulator/Kanna/Kanna.framework"; sourceTree = "<group>"; };
+		9F27501D1DF6B91A00F9F662 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/Selvbetjening-attzzbloqohansedtynavtfciskb/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		9F27501F1DF6B99500F9F662 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		9F2750211DF6B9AC00F9F662 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		9FFCC19A1DF6B65F009BBD2E /* Selvbetjening.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selvbetjening.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFCC19D1DF6B65F009BBD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFCC19F1DF6B65F009BBD2E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,7 @@
 		9FFCC1A61DF6B660009BBD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FFCC1A91DF6B660009BBD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FFCC1AB1DF6B660009BBD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A529E14D89589BC1DCC41D94 /* Pods-Selvbetjening.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selvbetjening.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Selvbetjening/Pods-Selvbetjening.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F27501E1DF6B91A00F9F662 /* SwiftyJSON.framework in Frameworks */,
+				9F27501C1DF6B91100F9F662 /* Kanna.framework in Frameworks */,
+				9F27501A1DF6B90B00F9F662 /* Alamofire.framework in Frameworks */,
+				9F2750181DF6B90500F9F662 /* HTMLReader.framework in Frameworks */,
+				8CC3B5FDFFDD13E96D94185E /* Pods_Selvbetjening.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		974BF15455455CE5C6309632 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A529E14D89589BC1DCC41D94 /* Pods-Selvbetjening.debug.xcconfig */,
+				7731DAB839AD8AE69DFA6199 /* Pods-Selvbetjening.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9FFCC1911DF6B65E009BBD2E = {
 			isa = PBXGroup;
 			children = (
 				9FFCC19C1DF6B65F009BBD2E /* Selvbetjening */,
 				9FFCC19B1DF6B65F009BBD2E /* Products */,
+				974BF15455455CE5C6309632 /* Pods */,
+				F700D77D050ED433D4AA3E02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +88,8 @@
 		9FFCC19C1DF6B65F009BBD2E /* Selvbetjening */ = {
 			isa = PBXGroup;
 			children = (
+				9F2750211DF6B9AC00F9F662 /* DataController.swift */,
+				9F27501F1DF6B99500F9F662 /* Chart.swift */,
 				9FFCC19D1DF6B65F009BBD2E /* AppDelegate.swift */,
 				9FFCC19F1DF6B65F009BBD2E /* MasterViewController.swift */,
 				9FFCC1A11DF6B660009BBD2E /* DetailViewController.swift */,
@@ -67,6 +101,18 @@
 			path = Selvbetjening;
 			sourceTree = "<group>";
 		};
+		F700D77D050ED433D4AA3E02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F27501D1DF6B91A00F9F662 /* SwiftyJSON.framework */,
+				9F27501B1DF6B91100F9F662 /* Kanna.framework */,
+				9F2750191DF6B90B00F9F662 /* Alamofire.framework */,
+				9F2750171DF6B90500F9F662 /* HTMLReader.framework */,
+				4100B8D0717C7659564933C8 /* Pods_Selvbetjening.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FFCC1AE1DF6B660009BBD2E /* Build configuration list for PBXNativeTarget "Selvbetjening" */;
 			buildPhases = (
+				074392B25BDEA8AC3D20833D /* [CP] Check Pods Manifest.lock */,
 				9FFCC1961DF6B65F009BBD2E /* Sources */,
 				9FFCC1971DF6B65F009BBD2E /* Frameworks */,
 				9FFCC1981DF6B65F009BBD2E /* Resources */,
+				D92CF1DABF92C6085FEA4C65 /* [CP] Embed Pods Frameworks */,
+				D5F22385A2A4A41DAEA56F43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,11 +183,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		074392B25BDEA8AC3D20833D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F22385A2A4A41DAEA56F43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Selvbetjening/Pods-Selvbetjening-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D92CF1DABF92C6085FEA4C65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Selvbetjening/Pods-Selvbetjening-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FFCC1961DF6B65F009BBD2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2750221DF6B9AC00F9F662 /* DataController.swift in Sources */,
+				9F2750201DF6B99500F9F662 /* Chart.swift in Sources */,
 				9FFCC1A21DF6B660009BBD2E /* DetailViewController.swift in Sources */,
 				9FFCC1A01DF6B660009BBD2E /* MasterViewController.swift in Sources */,
 				9FFCC19E1DF6B65F009BBD2E /* AppDelegate.swift in Sources */,
@@ -185,6 +284,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -234,6 +334,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -260,7 +361,9 @@
 		};
 		9FFCC1AF1DF6B660009BBD2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A529E14D89589BC1DCC41D94 /* Pods-Selvbetjening.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Selvbetjening/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,7 +375,9 @@
 		};
 		9FFCC1B01DF6B660009BBD2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7731DAB839AD8AE69DFA6199 /* Pods-Selvbetjening.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Selvbetjening/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -301,6 +406,7 @@
 				9FFCC1B01DF6B660009BBD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
